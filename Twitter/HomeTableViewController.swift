@@ -1,5 +1,5 @@
 //
-//  HomeTableTableViewController.swift
+//  HomeTableViewController.swift
 //  Twitter
 //
 //  Created by Matthew Tan on 10/4/21.
@@ -8,16 +8,17 @@
 
 import UIKit
 
-class HomeTableTableViewController: UITableViewController {
+class HomeTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-    
+
     @IBAction func onLogout(_ sender: Any) {
         TwitterAPICaller.client?.logout()
         self.dismiss(animated: true, completion: nil)
+        UserDefaults.standard.set(false, forKey: "userLoggedIn")
     }
     
     // MARK: - Table view data source
@@ -31,5 +32,5 @@ class HomeTableTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
-    
+
 }
