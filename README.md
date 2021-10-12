@@ -2,7 +2,7 @@
 
 Twitter is a basic twitter app to read your tweets.
 
-Time spent: 5 hours spent in total
+Time spent: 6 hours spent in total
 
 ## User Stories
 
@@ -16,12 +16,18 @@ The following **required** functionality is completed:
 
 The following **bonus** features are implemented:
 
-- [ ] User can pull to refresh. (1pt)
+- [x] User can pull to refresh. (1pt)
 - [ ] User can load past tweets infinitely. (2pts)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+### Part 1
+<img src='https://i.imgur.com/0OhM2Fb.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
+### Part 2
+<img src='https://i.imgur.com/E6GSPIN.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+
+### Part 3
+<img src='https://i.imgur.com/GlljOZV.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
