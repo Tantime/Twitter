@@ -195,7 +195,6 @@
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="tweet:" destination="Y4T-tu-TSR" id="nOd-V2-pb8"/>
-                                <segue destination="33b-sq-e79" kind="presentation" identifier="tweet" modalPresentationStyle="fullScreen" id="TKS-3d-3NV"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -258,9 +257,6 @@
             <point key="canvasLocation" x="2058" y="-197"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Xfp-t0-6t2"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="favor-icon" width="30" height="30"/>
         <image name="retweet-icon" width="30" height="30"/>
